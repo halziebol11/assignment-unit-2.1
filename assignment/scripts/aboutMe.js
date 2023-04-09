@@ -10,7 +10,7 @@ let fullName = firstName +' '+ lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
-let luckyNumber = 13;
+let luckyNumber = 2;
 // 6 - Console log this sentence, adding in the variables you created above: 
 // 'My name is (full name), and I think (lucky number) is a winner!'.
 // Refer back to the videos if you need help with this one.
@@ -26,7 +26,7 @@ let friendsPets = 1
 // 11 - Add two pets to your `pets` variable
 pets +=2;
 // 12 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 3;
+const allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!", 
 // if it's not true, console log "How about we stay home?"
 if (adventurous) {
@@ -64,6 +64,7 @@ else {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios. 
 // console.log `mostPets` after the conditional has run.
+let mostPets = '';
 if (pets >= friendsPets){
 mostPets = pets;
 }
@@ -91,6 +92,6 @@ switch(luckyNumber) {
   };
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
 // ternary operator to check the eligibility to vote
-let result =
+let result = 
     (adventurous) ? "Adventures are great!" : "How about we stay home?";
 console.log(result);
