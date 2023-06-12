@@ -7,6 +7,26 @@
   <body>
     <h1>Unit 2 Assignment - Part 1</h1>
     <p>See console for output.</p>
+    <h1 id="full-name"> </h1>
+    <h1 id="pets"> </h1>
+    <h1 id="lucky-number"> </h1>
+    <h1 id = "adventure"></h1>
+    <h1 id="compound"></h1>
+    <h1 id="compound2"></h1>
     <!-- If you have any questions, add them in paragraph tags here! -->
   </body>
 </html>
+<button onclick="myFunction()">Click me to add pets!</button>
+<script>
+document.querySelector("#full-name").innerHTML = 'My name: ' + fullName;
+document.querySelector("#pets").innerHTML = 'Number of pets: ' + pets;
+document.querySelector("#lucky-number").innerHTML = 'My lucky number: ' + luckyNumber;
+document.querySelector("#compound").innerHTML = 'My name is ' +fullName + ' and my lucky number is ' + luckyNumber + ' and my favorite food is ' + food;
+document.querySelector("#compound2").innerHTML = 'The number of allowed pets is ' +allowedPets + ' and the number of friends pets is ' +friendsPets
+function myFunction() {
+pets += 5;
+document.querySelector("#pets").innerHTML = 'Number of pets: ' + pets;
+}
+if (adventurous = true) {document.querySelector("#adventure").innerHTML = 'I am adventurous'}
+else {document.querySelector("#adventure").innerHTML = 'I am not adventurous'}
+</script>
